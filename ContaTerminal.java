@@ -22,5 +22,6 @@ public class ContaTerminal {
 
         Conta conta = new Conta(numero, agencia, nome_cliente, saldo);
         System.out.println(conta.getConta());
+        sc.close();
     }
 }
